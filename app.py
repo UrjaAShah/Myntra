@@ -123,7 +123,7 @@ def get_desc(user_input,cust_id):
     print(user_prompt)
     
     import openai
-    openai.api_key = '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'
+    openai.api_key = '<open-ai-key>'
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
          messages=[{"role": "system", "content": system_prompt},{"role": "user", "content": user_prompt}]
@@ -203,7 +203,7 @@ def image_generate(user_prompt):
     global imagecount
     import openai
     import requests
-    openai.api_key = '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'
+    openai.api_key = '<open-ai-key>'
     response = openai.Image.create(
       prompt=user_prompt,
       n=1,
