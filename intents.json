@@ -1,0 +1,40 @@
+{"intents": 
+[
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay","Hiya","I need help","Please help me"],
+     "responses": ["Hello, Welcome to Stylify. How can I help you?"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later", "Have a nice day"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+     "responses": ["I am Stylifi", "I'm Stylifi, an Artificial Intelligent bot"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?"],
+    "responses": ["I am Stylifi"]
+    },
+    {"tag": "suggestion",
+    "patterns":["Suggest","Give me an outfit", "Design an outfit","Give me a dress susggestion","Design a dress for me","Suggest something","Suggest a dress"],
+    "responses": ["Generating an outfit for you"]
+    },
+    {"tag": "outfit",
+    "patterns":["Suggest","Give me an outfit", "Design an outfit","Give me a dress susggestion","Design a dress for me","Suggest something","Suggest a dress"],
+    "responses": ["Generating an outfit for you"]
+    },
+    {"tag": "dress",
+    "patterns":["Suggest","Give me an outfit", "Design an outfit","Give me a dress susggestion","Design a dress for me","Suggest something","Suggest a dress"],
+    "responses": ["Generating an outfit for you"]
+    },
+    {"tag": "noanswer",
+    "patterns": ["  "," "],
+    "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]   
+    }
+]
+}
